@@ -1,0 +1,3 @@
+names = ["Ziyan", "Noor", "Mohammad", "Ahmad"]
+for name in names:
+    print(f"Hey {name}, just wanted to say hello!")

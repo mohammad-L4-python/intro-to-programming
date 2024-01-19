@@ -1,0 +1,4 @@
+quote = "I'm always the best in my mind."
+author = "Cristiano Ronaldo "
+
+print(f"{author} once said, \"{quote}\"")

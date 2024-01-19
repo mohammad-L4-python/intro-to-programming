@@ -1,0 +1,5 @@
+person_name = "\n\t Mohammad Farid \t\n"
+print(f"Name with whitespace: '{person_name}'\n")
+print(f"Using lstrip(): '{person_name.lstrip()}'")
+print(f"Using rstrip(): '{person_name.rstrip()}'")
+print(f"Using strip(): '{person_name.strip()}'")

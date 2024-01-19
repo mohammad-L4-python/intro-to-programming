@@ -67,5 +67,3 @@ each pet
 
 &nbsp;
 &nbsp;
-
-

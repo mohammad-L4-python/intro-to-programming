@@ -1,0 +1,3 @@
+guest_list = ["Cristiano Ronaldo", "Niki Lauda", "Paul Walker"]
+for person in guest_list:
+    print(f"Dear {person}, I would like to invite you to my house.")

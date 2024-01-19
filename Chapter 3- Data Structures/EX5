@@ -1,0 +1,8 @@
+guest_list = ["Cristiano Ronaldo", "Niki Lauda", "Paul Walker"]
+guest_cant_make_it = "Paul Walker"
+print(f"Unfortunately, {guest_cant_make_it} can't make it to your house.")
+new_guest = "Vini Jr"
+guest_list.remove(guest_cant_make_it)
+guest_list.append(new_guest)
+for person in guest_list:
+    print(f"Dear {person}, I would like to invite you to my house.")

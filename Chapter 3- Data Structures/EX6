@@ -1,0 +1,9 @@
+guests = ['Messi', 'Cristiano', 'Lauda', 'Enzo']
+print("Sorry, I can only invite two people for dinner.")
+while len('Lauda', 'Enzo') > 2:
+    removed_guest = guests.pop()
+    print(f"Sorry, {'Messi'}, I can't invite you to dinner.")
+for guest in guests:
+    print(f"{'Cristiano'}, you're still invited to dinner.")
+del guests[:]
+print("Updated guest list:", 'Cristiano', 'Lauda', 'Enzo')

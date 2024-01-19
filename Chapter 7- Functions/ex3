@@ -1,0 +1,8 @@
+def make_shirt(size, message):
+    print(f"Making a {size} sized shirt with the message: '{message}'")
+
+make_shirt("small", "Need money for porsche")
+
+make_shirt("medium", "officer it's stock!")
+
+make_shirt(size="large", message="Vtec kicked in YOO!")

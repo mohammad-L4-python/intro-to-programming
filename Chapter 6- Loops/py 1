@@ -1,0 +1,8 @@
+while True:
+    topping = input("Enter a pizza topping (type 'quit' to finish): ")
+
+    if topping.lower() == 'quit':
+        print("Finishing pizza creation. Enjoy your pizza!")
+        break
+    else:
+        print(f"You'll add '{topping}' to your pizza.")

@@ -1,0 +1,18 @@
+while True:
+    try:
+        age = int(input("Please enter your age (or type '0' to exit): "))
+        if age == 0:
+            print("Exiting the program. Goodbye!")
+            break
+
+        if age < 3:
+            ticket_cost = 0
+        elif 3 <= age <= 12:
+            ticket_cost = 10
+        else:
+            ticket_cost = 15
+
+        print(f"The cost of your movie ticket is ${ticket_cost}")
+
+    except ValueError:
+        print("Invalid input. Please enter a valid age as a number.")

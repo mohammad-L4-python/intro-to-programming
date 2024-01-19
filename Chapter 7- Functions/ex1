@@ -1,0 +1,5 @@
+def display_message():
+    topic = "suzuki hayabusa"
+    print(f"this chapter we are learning about driving a bike {topic}.")
+
+display_message()

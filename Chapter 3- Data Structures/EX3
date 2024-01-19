@@ -1,0 +1,3 @@
+transportation_modes = ["Kawasaki Ninja h2r", "Porsche 911gt3rs", "Koenigsegg agera rs ", "Suzuki hayabusa", "Pagani zonda R"]
+for mode in transportation_modes:
+    print(f"I would like to own a {mode}.")

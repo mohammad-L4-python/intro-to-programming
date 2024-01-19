@@ -1,0 +1,9 @@
+glossary = {
+    'Variable': 'A named storage location in the computer\'s memory that can hold different values.',
+    'List': 'An ordered collection of items, which can be of different data types.',
+    'Function': 'A reusable block of code that performs a specific task and can be called with a name.',
+    'Loop': 'A programming construct that repeats a set of instructions as long as a certain condition is true.',
+    'Dictionary': 'A collection of key-value pairs, where each key must be unique.'
+}
+for term, meaning in glossary.items():
+    print(f"{term}:\n{meaning}\n")

@@ -1,0 +1,14 @@
+glossary = {
+    'Variable': 'A named storage location in the computer\'s memory that can hold different values.',
+    'List': 'An ordered collection of items, which can be of different data types.',
+    'Function': 'A reusable block of code that performs a specific task and can be called with a name.',
+    'Loop': 'A programming construct that repeats a set of instructions as long as a certain condition is true.',
+    'Dictionary': 'A collection of key-value pairs, where each key must be unique.',
+    'Module': 'A file containing Python code that defines functions, variables, and classes.',
+    'Tuple': 'An ordered, immutable collection of items.',
+    'Boolean': 'A data type that has two possible values: True or False.',
+    'Method': 'A function that is associated with an object and is called using dot notation.',
+    'Exception': 'An event that occurs during the execution of a program that disrupts the normal flow of instructions.'
+}
+for term, meaning in glossary.items():
+    print(f"{term}:\n{meaning}\n")
